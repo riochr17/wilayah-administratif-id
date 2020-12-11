@@ -15,7 +15,7 @@
 ## Provinsi
 
 ```
-GET https://riochr17.github.io/provinsi.json
+GET https://riochr17.github.io/wilayah-administratif-id/provinsi.json
 ```
 
 <a name="kota-kabupaten"></a>
@@ -23,7 +23,7 @@ GET https://riochr17.github.io/provinsi.json
 ## Kota/Kabupaten
 
 ```
-GET https://riochr17.github.io/<id-provinsi>/kota-kab.json
+GET https://riochr17.github.io/wilayah-administratif-id/<id-provinsi>/kota-kab.json
 ```
 
 <a name="kecamatan"></a>
@@ -31,7 +31,7 @@ GET https://riochr17.github.io/<id-provinsi>/kota-kab.json
 ## Kecamatan
 
 ```
-GET https://riochr17.github.io/<id-provinsi>/<id-kota-kab>/kecamatan.json
+GET https://riochr17.github.io/wilayah-administratif-id/<id-provinsi>/<id-kota-kab>/kecamatan.json
 ```
 
 <a name="kelurahan"></a>
@@ -39,7 +39,7 @@ GET https://riochr17.github.io/<id-provinsi>/<id-kota-kab>/kecamatan.json
 ## Kelurahan
 
 ```
-GET https://riochr17.github.io/<id-provinsi>/<id-kota-kab>/<id-kecamatan>/kelurahan.json
+GET https://riochr17.github.io/wilayah-administratif-id/<id-provinsi>/<id-kota-kab>/<id-kecamatan>/kelurahan.json
 ```
 
 <a name="how-to"></a>
